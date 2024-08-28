@@ -4,6 +4,8 @@ Demonstrate how to use Terraform to create a Key Vault and Key Vault Secret.
 
 It will take a local environment variable called TF_VAR_my_test_variable and upload the value into a Key Vault Secret called my_test_variable.
 
+This environment variable can be set in Azure Devops using a variable group, just be sure to have the TF_VAR_ prefix on them.
+
 # Prerequisites
 
 - Azure CLI
